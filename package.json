@@ -1,0 +1,11 @@
+{
+  "name": "j-utils",
+  "version": "1.0.0",
+  "description": "para utilidades y pruebas de concepto",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
