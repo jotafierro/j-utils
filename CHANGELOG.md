@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github-personal.com/jotafierro/j-utils/compare/v0.2.0...v0.3.0) (2025-02-05)
+
+
+### Features
+
+* add script to publish new version, running build before publishing ([d82819e](https://github-personal.com/jotafierro/j-utils/commit/d82819e4083c42ac9fb204e4d0ef33e5a1790a34))
+
 ## [0.2.0](https://github-personal.com/jotafierro/j-utils/compare/v0.1.0...v0.2.0) (2025-02-05)
 
 
