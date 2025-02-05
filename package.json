@@ -2,7 +2,11 @@
   "name": "j-utils",
   "version": "0.0.0",
   "description": "para utilidades y pruebas de concepto",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.14",
@@ -12,6 +16,8 @@
     "typescript": "^5.7.3"
   },
   "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage"
