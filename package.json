@@ -21,6 +21,7 @@
     "release:major": "npm run release -- --release-as major",
     "release:minor": "npm run release -- --release-as minor",
     "release:patch": "npm run release -- --release-as patch",
+    "publish": "npm run prepublish && npm publish",
     "prepublish": "npm run build",
     "build": "tsc",
     "test": "jest",
