@@ -1,17 +1,17 @@
-# j-utils
+# @jfierro/utils
 
 An amazing lib.
 
 ## Install
 
 ```bash
-npm install j-utils
+npm install @jfierro/utils
 ```
 
 ## Use
 
 ```typescript
-import { sum } from 'j-utils';
+import { sum } from '@jfierro/utils';
 
 console.log(sum(1, 2)); // 3
 ```

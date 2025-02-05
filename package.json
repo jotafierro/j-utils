@@ -1,5 +1,5 @@
 {
-  "name": "j-utils",
+  "name": "@jfierro/utils",
   "version": "0.1.0",
   "description": "utilities and proofs of concept in ts",
   "main": "dist/index.js",
