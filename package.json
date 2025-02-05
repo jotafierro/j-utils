@@ -1,7 +1,7 @@
 {
   "name": "j-utils",
   "version": "0.0.0",
-  "description": "para utilidades y pruebas de concepto",
+  "description": "utilities and proofs of concept in ts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -12,10 +12,15 @@
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.1",
     "jest": "^29.7.0",
+    "standard-version": "^9.5.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.3"
   },
   "scripts": {
+    "release": "standard-version",
+    "release:major": "npm run release -- --release-as major",
+    "release:minor": "npm run release -- --release-as minor",
+    "release:patch": "npm run release -- --release-as patch",
     "prepublish": "npm run build",
     "build": "tsc",
     "test": "jest",
