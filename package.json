@@ -1,7 +1,7 @@
 {
   "name": "@jfierro/utils",
   "version": "0.3.0",
-  "description": "utilities and proofs of concept in ts",
+  "description": "para utilidades y pruebas de concepto",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
