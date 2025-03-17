@@ -1,3 +1,5 @@
+import { squareRoot } from "./libs/square_root";
+
 export class Calculator {
     add(a: number, b: number) {
         return a + b;
@@ -16,5 +18,9 @@ export class Calculator {
             throw new Error("Cannot divide by zero");
         }
         return a / b;
+    }
+
+    squareRoot(a: number) {
+        return squareRoot(a);
     }
 }
